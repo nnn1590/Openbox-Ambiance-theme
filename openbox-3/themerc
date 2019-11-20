@@ -116,40 +116,44 @@ window.inactive.title.separator.color: #3C3B37
 
 *.title.bg: raised splitvertical gradient
 *.title.bg.color:#454440
-*.title.bg.color.splitTo: #474642
+*.title.bg.color.splitTo: #33b5e5
 ##42413d
 *.title.bg.colorTo: #403F3B
-*.title.bg.colorTo.splitTo:#3c3b37
+*.title.bg.colorTo.splitTo:#999
 window.*.label.bg: parentrelative
 window.*.label.text.color: #dedede
 
 window.active.button.*.bg: raised splitvertical gradient
-window.active.button.*.bg.color: #77766F
-window.active.button.*.bg.color.SplitTo: #8C8B85
+window.active.button.*.bg.color: #33b5e5
+window.active.button.*.bg.color.SplitTo: #fff
 
-window.active.button.*.bg.colorTo: #73726B
-window.active.button.*.bg.colorTo.SplitTo: #5A5A55
+window.active.button.*.bg.colorTo: #09c
+window.active.button.*.bg.colorTo.SplitTo: #33b5e5
 
-window.*.button.*.border.color:#393834
+window.*.button.*.border:  flat border gradient splitvertical
+window.*.button.*.border.color:#fff
+window.*.button.*.border.color.SplitTo:#fff
+window.*.button.*.border.colorTo:#33b5e5
+window.*.button.*.border.colorTo.SplitTo:#000
 
 window.active.button.*.pressed.bg: raised solid
 window.active.button.*.pressed.image.color: #555
 window.active.button.*.pressed.bg.color: #75746d
 
-window.active.button.*.image.color: #3A3935
+window.active.button.*.image.color: #fff
 
 window.active.button.*.hover.bg: raised vertical gradient
-window.active.button.*.hover.bg.color: #c9c9c9
+window.active.button.*.hover.bg.color: #33b5e5
 window.active.button.*.hover.bg.colorTo: #9a9a9a
 window.active.button.*.hover.image.color: #696966
 
 
 window.active.button.*.*.bg: raised splitvertical gradient
-window.active.button.close.*.bg.color: #E66228
-window.active.button.close.*.bg.color.SplitTo: #F79674
-window.active.button.close.*.bg.colorTo: #E66228
-window.active.button.close.*.bg.colorTo.SplitTo: #DF5106
-window.active.button.close.*.image.color: #583F35
+window.active.button.close.*.bg.color: #f44
+window.active.button.close.*.bg.color.SplitTo: #fff
+window.active.button.close.*.bg.colorTo: #c00
+window.active.button.close.*.bg.colorTo.SplitTo: #f44
+!#window.active.button.close.*.image.color: #583F35
 
 window.active.button.close.hover.bg: raised splitvertical gradient
 window.active.button.close.hover.bg.color: #F48256
@@ -157,7 +161,7 @@ window.active.button.close.hover.bg.color.SplitTo: #FAA589
 window.active.button.close.hover.bg.colorTo: #EF7442
 window.active.button.close.hover.bg.colorTo.SplitTo: #E45306
 
-window.active.button.close.hover.image.color: #4f2919
+!#window.active.button.close.hover.image.color: #4f2919
 
 window.active.button.close.pressed.bg: raised solid
 window.active.button.close.pressed.image.color: 402013
@@ -176,7 +180,7 @@ window.inactive.border.color: #444444
 
 !## Hmmm we need an alternative...
 window.inactive.title.bg.color: #42413E
-window.inactive.title.bg.color.splitTo: #474643
+window.inactive.title.bg.color.splitTo: #09c
 
 
 
